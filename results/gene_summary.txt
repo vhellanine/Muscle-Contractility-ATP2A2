@@ -1,0 +1,4 @@
+Gene symbol: ATP2A2
+NCBI Gene ID: 488
+Official name: ATPase sarcoplasmic/endoplasmic reticulum Ca2+ transporting 2
+Chromosome: 12

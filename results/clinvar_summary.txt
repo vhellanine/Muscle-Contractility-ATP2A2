@@ -1,0 +1,18 @@
+CLINVAR VARIANT ANALYSIS
+========================
+Gene: ATP2A2
+NCBI Gene ID: 488
+ClinVar Variation ID: 17799
+Variant: NM_170665.4(ATP2A2):c.1805C>T
+Protein change: p.Pro602Leu
+Transcript: NM_170665.4
+Variant type: Single nucleotide variant (missense)
+Associated condition: Acrokeratosis verruciformis of Hopf
+Aggregate classification: Pathogenic
+Review status: Criteria provided, multiple submitters, no conflicts
+Total submissions: 3
+Submissions contributing to aggregate: 2
+Latest evaluation: June 9, 2023
+Most recent submission: February 23, 2026
+Date accessed: November 14, 2026
+NCBI ClinVar: https://www.ncbi.nlm.nih.gov/clinvar/variation/17799/
