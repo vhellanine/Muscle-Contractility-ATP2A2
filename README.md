@@ -296,7 +296,33 @@ A reduction in ATPase activity and calcium uptake in the mutant group compared w
 
 This is a proposed experiment and was not performed as part of the present computational laboratory activity.
 
-## 11. Limitations
+## 11. Answers to the Required Guide Questions
+
+### 1. What does your assigned gene encode, and how does this protein contribute to muscle function?
+
+The ATP2A2 gene encodes SERCA2, a calcium-transporting protein that pumps calcium from the cytoplasm into the sarcoplasmic/endoplasmic reticulum. This helps maintain calcium homeostasis and promotes muscle relaxation after contraction.
+
+### 2. What was the exact protein accession and length retrieved with R?
+
+The retrieved reference protein was **NP_733765.1 (SERCA2b)**, corresponding to transcript NM_170665.4. It contains **1,042 amino-acid residues**.
+
+### 3. What did the amino-acid composition chart show? What can it NOT tell you?
+
+The chart shows the frequency and distribution of the 20 standard amino acids in ATP2A2. It identifies the most abundant residues but cannot establish protein structure, biochemical activity, or mutation effects. Exact counts are available in `results/amino_acid_composition.csv`.
+
+### 4. What is your fixed ClinVar variant, and what is its current classification and evidence strength?
+
+The assigned variant is **NM_170665.4:c.1805C>T (p.Pro602Leu)**, ClinVar ID **17799**. It is a missense variant classified as **Pathogenic**, with multiple submitters and no conflicting interpretations. Functional studies report impaired ATPase activity and calcium transport.
+
+### 5. What is the scientifically supported mechanism linking this variant to muscle function, and what remains uncertain?
+
+The p.Pro602Leu substitution has been associated with impaired SERCA2 activity and calcium transport. Since SERCA2 regulates calcium homeostasis, its dysfunction may affect muscle relaxation. However, the variant is clinically associated with acrokeratosis verruciformis of Hopf, and a specific muscle-contractility disorder has not been established. Its precise structural effects remain uncertain.
+
+### 6. What additional experiment would help test the proposed mechanism?
+
+Compare wild-type and mutant SERCA2 using ATPase activity assays and calcium imaging. Reduced ATPase activity and calcium transport in the mutant would support the proposed loss-of-function mechanism. This experiment is proposed and was not performed in this activity.
+
+## 12. Limitations
 
 1. The investigation was based primarily on publicly available sequence records, clinical databases, and previously published studies.
 2. Amino-acid composition alone cannot establish the three-dimensional structure or biological activity of a protein.
@@ -306,7 +332,7 @@ This is a proposed experiment and was not performed as part of the present compu
 6. Although ATP2A2 is involved in calcium regulation and muscle physiology, the documented clinical association of the assigned variant is acrokeratosis verruciformis of Hopf. A specific muscle-contractility phenotype should not be assumed.
 7. Additional structural and functional experiments are necessary to investigate the detailed molecular consequences of the variant.
 
-## 12. Conclusion
+## 13. Conclusion
 
 The computational analysis successfully retrieved the human ATP2A2 gene and its corresponding reference protein sequence using R and the NCBI database.
 
@@ -316,7 +342,7 @@ The assigned missense variant, c.1805C>T (p.Pro602Leu), was documented in ClinVa
 
 Overall, the activity demonstrates the importance of integrating gene information, protein sequence analysis, variant databases, and biological interpretation to investigate the molecular mechanisms underlying genetic variation.
 
-## 13. Reproducibility and Repository Structure
+## 14. Reproducibility and Repository Structure
 
 The complete R analysis script and generated outputs are included in this repository.
 
@@ -364,7 +390,7 @@ library(ggplot2)
 
 The analysis script automatically retrieves the assigned gene and protein information and generates the required result files and visualizations.
 
-## 14. References and Data Sources
+## 15. References and Data Sources
 
 1. National Center for Biotechnology Information (NCBI). ATP2A2 Gene Record, Gene ID: 488.  
    https://www.ncbi.nlm.nih.gov/gene/488/
